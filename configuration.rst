@@ -1,3 +1,10 @@
+.. title:: MyMail -  Wrapper for send mail
+
+.. meta::
+    :description: MyMail - wrapper for send mail - dframeframework.com
+    :keywords: php, mailing, php, php7, send mail, mails, smtp, imap, mail wrapper, dframe
+
+
 The myMail library is a simple wrapper, this time for phpmailer. In a simple way, you can set data for connection in config.
 
 .. code-block:: php
