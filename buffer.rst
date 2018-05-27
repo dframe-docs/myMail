@@ -1,3 +1,9 @@
+.. title:: MyMail - Queuing emails
+
+.. meta::
+    :description: MyMail - Queuing emails
+    :keywords: php, mailing, php, php7, send mail, buffer, queuing, smtp, imap, mail wrapper, dframe
+
 Creating a buffer allows us to create queueing of emails, thanks to which we can set a limit of mail sending per hour using dframe/database. When you already have a downloaded and installed framework, you create a model called mail.php.
 
 **Model/Mail.php**
