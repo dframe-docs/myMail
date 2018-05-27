@@ -1,4 +1,4 @@
-.. title:: MyMail -  Wrapper for send mail
+.. title:: MyMail -  Sendmail Wrapper 
 
 .. meta::
     :description: MyMail - wrapper for send mail - dframeframework.com
