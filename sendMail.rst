@@ -1,3 +1,9 @@
+.. title:: MyMail - sending emails
+
+.. meta::
+    :description: MyMail - sending emails
+    :keywords: php, mailing, php, php7, send mail, buffer, queuing, smtp, imap, mail wrapper, dframe
+
 The library can be used independently, that means you don't need a framework. Access to the phpMailer class is through the |mail| variable. The code below is an example of sending the email to the receiver instantly.
 
 .. code-block:: php
