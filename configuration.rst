@@ -20,13 +20,43 @@ The myMail library is a simple wrapper, this time for phpmailer. In a simple way
 .. code-block:: php
 
  return [
-     'Hosts' => ['primaryHostName.tld', 'backupHostName.tld'],    // Specify main and backup SMTP servers
-     'SMTPAuth' => true,    // Enable SMTP authentication
-     'Username' => 'Username@mail',    // SMTP username
-     'Password' => '',    // SMTP password
-     'SMTPSecure' => 'tls',    // Enable TLS encryption, `ssl` also accepted
-     'Port' => 587,    // Port
- 
-     'SenderName' => PROJECT_NAME,    //Name of default sender
-     'SenderEmail' => 'senderMail@mail'    //Default sender's address
+     /**
+      * Specify main and backup SMTP servers
+      */
+     'hosts' => ['primaryHostName.tld', 'backupHostName.tld'],
+
+     /**
+      * Enable SMTP authentication
+      */
+     'smtpAuth' => true,
+
+     /**
+      * SMTP username
+      */
+     'username' => 'Username@mail',
+
+     /**
+      * SMTP password
+      */
+     'password' => '',
+
+     /**
+      * Enable TLS encryption, `ssl` also accepted
+      */
+     'smtpSecure' => 'tls',
+
+     /**
+      * Port
+      */
+     'port' => 587,
+
+     /**
+      * Name of default sender
+      */
+     'senderName' => PROJECT_NAME,
+
+     /**
+      * Default sender's address
+      */
+     'senderEmail' => 'senderMail@mail'
  ];
